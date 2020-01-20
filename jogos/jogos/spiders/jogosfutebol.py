@@ -7,11 +7,11 @@ class JogosfutebolSpider(scrapy.Spider):
     name = 'JogosfutebolSpider'
     allowed_domains = ['https://globoesporte.globo.com']
     now = datetime.now()
-    now = now - timedelta(days= 1)
+    now = now - timedelta(days=60)
     start_urls = []
     i=1
 
-    while i <= 3:
+    while i <= 63:
         url = 'https://globoesporte.globo.com/placar-ge/'+(now.strftime('%d-''%m-''%Y'))+'/jogos.ghtml'   
         start_urls.append(url)
         now = now + timedelta(days=1)

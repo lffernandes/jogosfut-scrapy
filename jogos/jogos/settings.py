@@ -25,9 +25,9 @@ CONNECTION_STRING  ="{drivername}://{user}:{passwd}@{host}:{port}/{db_name}?char
     drivername = "mysql" , 
     user = "us_jogosfut_toscrapy" , 
     passwd = "R1ck&m0rty" , 
-    host = "35.202.111.196" , 
+    host = "localhost" , 
     port = "3306" , 
-    db_name = "crucial-inn-256913:us-central1:jogofut-db" , 
+    db_name = "jogosfut_toscrapy" , 
 )
 
 
